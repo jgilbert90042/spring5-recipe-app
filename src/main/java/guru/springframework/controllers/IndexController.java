@@ -24,4 +24,20 @@ public class IndexController {
 
         return "index";
     }
+
+/*
+    private final RecipeRepository recipeRepository;
+
+    public IndexController(RecipeRepository recipeRepository) {
+        this.recipeRepository = recipeRepository;
+    }
+
+    @RequestMapping({"", "/", "/index"})
+    public String getIndexPage(Model model) {
+
+        model.addAttribute("recipes", recipeRepository.findAll());
+
+        return "index";
+    }
+*/
 }
